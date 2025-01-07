@@ -1,0 +1,29 @@
+.container {
+    margin-top: 15px;
+
+    display: flex;
+
+    @media (max-width: 950px) {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+.button-container {
+    padding-top: 15px;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+
+    @media (max-width: 950px) {
+        gap: 20px;
+    }
+}
+
+.routeName {
+    padding: 0;
+}
+
+.username {
+    padding-bottom: 15px;
+}
